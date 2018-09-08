@@ -28,7 +28,6 @@ public class TransformigrifyChannelHandler implements Handler<SocketChannel> {
 			while (buff.hasRemaining()) {
 				sc.write(buff);
 			}
-			buff.compact();
 		}
 	}
 
