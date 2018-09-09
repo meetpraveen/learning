@@ -20,7 +20,7 @@ public class NastChamp {
 	 * @throws InterruptedException
 	 */
 	public static void main(String[] args) throws UnknownHostException, IOException, InterruptedException {
-		Socket[] sockets = new Socket[30000];
+		Socket[] sockets = new Socket[3000];
 		for (int i = 0; i < sockets.length; i++) {
 			sockets[i] = new Socket("localhost", 8080);
 		}
